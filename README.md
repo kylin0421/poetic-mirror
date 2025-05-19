@@ -10,7 +10,7 @@
 👉 [点击体验 Poetic Mirror ⬈](https://huggingface.co/spaces/slxhere/Poetic_Mirror)
 
 <p align="center">
-  <img src="https://github.com/kylin0421/poetic-mirror/blob/main/template.png" width="600"/>
+  <img src="https://github.com/kylin0421/poetic-mirror/blob/main/template.png" width="1000"/>
 </p>
 
 > 如果界面打不开，可能是 Space 还在唤醒中，请稍等片刻
