@@ -64,7 +64,7 @@ Poetic Mirror is a semantic retrieval system that maps modern Chinese sentences 
 By leveraging sentence embeddings, vector search, and reranking, it enables modern expressions to be reflected in ancient verse — forming a poetic dialogue across time.
 
 🔗 Online Demo
-👉 Try Poetic Mirror on Hugging Face Space ⬈
+👉 [Try Poetic Mirror on Hugging Face Space ⬈](https://huggingface.co/spaces/slxhere/Poetic_Mirror)
 
 ✨ Highlights
 🧠 Semantic retrieval instead of keyword matching
@@ -88,9 +88,10 @@ Rerank	LLM-based reranking via DeepSeek-Chat
 Deployment	Hugging Face Space (no backend required)
 
 🚀 Local Run
-bash
+```bash
 git clone https://github.com/kylin0421/poetic-mirror.git
 cd poetic-mirror
 pip install -r requirements.txt
 python app.py
 </details> 
+```
