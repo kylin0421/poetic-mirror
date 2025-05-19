@@ -96,12 +96,13 @@ This project aims to bridge the two by retrieving poetic responses that reflect 
 
 🏗 Architecture
 
-Module	Description
-Data	GPT-based generation of modern-poem triplets
-Encoders	Dual-tower sentence transformer, finetuned
-Retrieval	FAISS-based dense search
-Rerank	LLM-based reranking via DeepSeek-Chat
-Deployment	Hugging Face Space (no backend required)
+| Module	| Description |
+|------|------|
+| Data	| GPT-based generation of modern-poem triplets |
+| Encoders	| Dual-tower sentence transformer, finetuned |
+| Retrieval	| FAISS-based dense search |
+| Rerank	| LLM-based reranking via DeepSeek-Chat |
+| Deployment	| Hugging Face Space (no backend required) |
 
 
 ---
