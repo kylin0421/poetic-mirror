@@ -1,5 +1,6 @@
 # 🪞 Poetic Mirror ｜现代句 → 古诗语义匹配系统
 *A Semantic Bridge from Modern Chinese to Classical Poetry*
+(For English version, please scroll down)
 
 <details open>
 <summary>🇨🇳 中文简介（点击折叠）</summary>
@@ -63,8 +64,12 @@ python app.py
 Poetic Mirror is a semantic retrieval system that maps modern Chinese sentences to the most thematically resonant lines from classical Chinese poetry.
 By leveraging sentence embeddings, vector search, and reranking, it enables modern expressions to be reflected in ancient verse — forming a poetic dialogue across time.
 
+---
+
 🔗 Online Demo
 👉 [Try Poetic Mirror on Hugging Face Space ⬈](https://huggingface.co/spaces/slxhere/Poetic_Mirror)
+
+---
 
 ✨ Highlights
 🧠 Semantic retrieval instead of keyword matching
@@ -75,9 +80,15 @@ By leveraging sentence embeddings, vector search, and reranking, it enables mode
 
 🚀 Fully deployed via Hugging Face Space, no backend needed
 
+---
+
 💡 Motivation
 Modern Chinese tends to be rational and direct, while classical poetry is rich in metaphor and emotion.
 This project aims to bridge the two by retrieving poetic responses that reflect the semantics and sentiment of contemporary language.
+
+
+
+---
 
 🏗 Architecture
 Module	Description
@@ -86,6 +97,9 @@ Encoders	Dual-tower sentence transformer, finetuned
 Retrieval	FAISS-based dense search
 Rerank	LLM-based reranking via DeepSeek-Chat
 Deployment	Hugging Face Space (no backend required)
+
+
+---
 
 🚀 Local Run
 ```bash
