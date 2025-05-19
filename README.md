@@ -1,4 +1,8 @@
 # 🪞 Poetic Mirror ｜现代句 → 古诗语义匹配系统
+*A Semantic Bridge from Modern Chinese to Classical Poetry*
+
+<details open>
+<summary>🇨🇳 中文简介（点击折叠）</summary>
 
 以现代中文为引，探寻古典诗意的回响。  
 输入一句现代语言，系统将检索出最契合其语义的古诗句作为回应，构建“古今对话”的诗意桥梁。
@@ -10,7 +14,7 @@
 👉 [点击体验 Poetic Mirror ⬈](https://huggingface.co/spaces/slxhere/Poetic_Mirror)
 
 <p align="center">
-  <img src="https://github.com/kylin0421/poetic-mirror/blob/main/template.png" width="1000"/>
+  <img src="https://github.com/kylin0421/poetic-mirror/blob/main/template.png?raw=true" width="1000"/>
 </p>
 
 > 如果界面打不开，可能是 Space 还在唤醒中，请稍等片刻
@@ -52,3 +56,41 @@ git clone https://github.com/kylin0421/poetic-mirror.git
 cd poetic-mirror
 pip install -r requirements.txt
 python app.py
+
+```
+
+</details> <details> <summary>🌍 English Summary (click to expand)</summary>
+Poetic Mirror is a semantic retrieval system that maps modern Chinese sentences to the most thematically resonant lines from classical Chinese poetry.
+By leveraging sentence embeddings, vector search, and reranking, it enables modern expressions to be reflected in ancient verse — forming a poetic dialogue across time.
+
+🔗 Online Demo
+👉 Try Poetic Mirror on Hugging Face Space ⬈
+
+✨ Highlights
+🧠 Semantic retrieval instead of keyword matching
+
+🎯 Recall@1 improved to 0.19+, far above baseline (0.02)
+
+⚙️ Supports embedding caching + LLM-based reranking
+
+🚀 Fully deployed via Hugging Face Space, no backend needed
+
+💡 Motivation
+Modern Chinese tends to be rational and direct, while classical poetry is rich in metaphor and emotion.
+This project aims to bridge the two by retrieving poetic responses that reflect the semantics and sentiment of contemporary language.
+
+🏗 Architecture
+Module	Description
+Data	GPT-based generation of modern-poem triplets
+Encoders	Dual-tower sentence transformer, finetuned
+Retrieval	FAISS-based dense search
+Rerank	LLM-based reranking via DeepSeek-Chat
+Deployment	Hugging Face Space (no backend required)
+
+🚀 Local Run
+bash
+git clone https://github.com/kylin0421/poetic-mirror.git
+cd poetic-mirror
+pip install -r requirements.txt
+python app.py
+</details> ```
