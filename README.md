@@ -72,6 +72,9 @@ By leveraging sentence embeddings, vector search, and reranking, it enables mode
 ---
 
 ✨ Highlights
+
+
+
 🧠 Semantic retrieval instead of keyword matching
 
 🎯 Recall@1 improved to 0.19+, far above baseline (0.02)
@@ -85,7 +88,6 @@ By leveraging sentence embeddings, vector search, and reranking, it enables mode
 💡 Motivation
 Modern Chinese tends to be rational and direct, while classical poetry is rich in metaphor and emotion.
 This project aims to bridge the two by retrieving poetic responses that reflect the semantics and sentiment of contemporary language.
-
 
 
 ---
