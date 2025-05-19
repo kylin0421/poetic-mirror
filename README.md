@@ -67,6 +67,7 @@ By leveraging sentence embeddings, vector search, and reranking, it enables mode
 ---
 
 🔗 Online Demo
+
 👉 [Try Poetic Mirror on Hugging Face Space ⬈](https://huggingface.co/spaces/slxhere/Poetic_Mirror)
 
 ---
@@ -86,6 +87,7 @@ By leveraging sentence embeddings, vector search, and reranking, it enables mode
 ---
 
 💡 Motivation
+
 Modern Chinese tends to be rational and direct, while classical poetry is rich in metaphor and emotion.
 This project aims to bridge the two by retrieving poetic responses that reflect the semantics and sentiment of contemporary language.
 
@@ -93,6 +95,7 @@ This project aims to bridge the two by retrieving poetic responses that reflect 
 ---
 
 🏗 Architecture
+
 Module	Description
 Data	GPT-based generation of modern-poem triplets
 Encoders	Dual-tower sentence transformer, finetuned
@@ -104,6 +107,7 @@ Deployment	Hugging Face Space (no backend required)
 ---
 
 🚀 Local Run
+
 ```bash
 git clone https://github.com/kylin0421/poetic-mirror.git
 cd poetic-mirror
