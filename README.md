@@ -9,6 +9,18 @@
 输入一句现代语言，系统将检索出最契合其语义的古诗句作为回应，构建“古今对话”的诗意桥梁。
 
 ---
+## 模型权重与数据集
+
+model: https://huggingface.co/slxhere/modern_ancientpoem_encoder
+
+dataset:
+
+-poems: https://huggingface.co/datasets/slxhere/tang_poems
+
+-cached embedding: https://huggingface.co/datasets/slxhere/poetic-mirror-cache-tang-embedding
+
+
+---
 
 ## 🔗 在线体验（Hugging Face Space）
 
@@ -55,6 +67,18 @@
 </details> <details> <summary>🌍 English Summary (click to expand)</summary>
 Poetic Mirror is a semantic retrieval system that maps modern Chinese sentences to the most thematically resonant lines from classical Chinese poetry.
 By leveraging sentence embeddings, vector search, and reranking, it enables modern expressions to be reflected in ancient verse — forming a poetic dialogue across time.
+
+---
+
+## Model weights and datasets
+
+model: https://huggingface.co/slxhere/modern_ancientpoem_encoder
+
+dataset:
+
+-poems: https://huggingface.co/datasets/slxhere/tang_poems
+
+-cached embedding: https://huggingface.co/datasets/slxhere/poetic-mirror-cache-tang-embedding
 
 ---
 
