@@ -50,15 +50,7 @@
 
 ---
 
-## 🚀 快速开始（本地运行）
 
-```bash
-git clone https://github.com/kylin0421/poetic-mirror.git
-cd poetic-mirror
-pip install -r requirements.txt
-python app.py
-
-```
 
 </details> <details> <summary>🌍 English Summary (click to expand)</summary>
 Poetic Mirror is a semantic retrieval system that maps modern Chinese sentences to the most thematically resonant lines from classical Chinese poetry.
@@ -105,14 +97,5 @@ This project aims to bridge the two by retrieving poetic responses that reflect 
 | Deployment	| Hugging Face Space (no backend required) |
 
 
----
 
-🚀 Local Run
-
-```bash
-git clone https://github.com/kylin0421/poetic-mirror.git
-cd poetic-mirror
-pip install -r requirements.txt
-python app.py
-```
 </details> 
